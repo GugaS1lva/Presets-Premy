@@ -1,10 +1,16 @@
 import emy01 from './assets/images/emy01.jpeg'
 import emy02 from './assets/images/emy02.jpeg'
+import emy03 from './assets/images/emy03.jpeg'
 import title1 from './assets/images/title1.png'
 import title2left from './assets/images/title2left.png'
 import title2right from './assets/images/title2right.png'
 import title3 from './assets/images/title3.png'
 import title4 from './assets/images/title4.png'
+import title5 from './assets/images/title5.png'
+import title6 from './assets/images/title6.png'
+import title7 from './assets/images/title7.png'
+import pinkCloud from './assets/images/pinkCloud.jpeg'
+import phone1 from './assets/images/phone1.jpeg'
 
 function App() {
   return (
@@ -16,7 +22,14 @@ function App() {
 
           <p className='text-xl font-Bodoni2 font-bold leading-tight sm:text-4xl sm:text-center md:text-start'>Hey! Sou a Emily Abade, tenho 17 anos e sou a criadora dos Presets Premy, que ajudam milhares de pessoas a terem suas fotos mais bonitas, afinal, quem não quer postar as melhores fotos nas redes sociais, não é mesmo?</p>
 
-          <strong className='self-center'>VENHA CONHECER O MEU PRODUTO!</strong>
+          <div className='flex flex-col items-center justify-center'>
+            <img src={title5} alt="" />
+
+            <div className='flex flex-col items-center justify-center sm:flex-row'>
+              <img className='mt-0 sm:mt-3' src={title6} alt="" />
+              <img className='' src={title7} alt="" />
+            </div>
+          </div>
         </div>
 
         <div>
@@ -36,12 +49,12 @@ function App() {
 
           <div className='flex flex-col gap-2 sm:flex-row'>
             <div className='flex flex-col items-center justify-center'>
-              <img className='w-[230px] h-[340px]' src="" alt="" />
+              <img className='w-[230px] h-[340px] bg-antes bg-cover bg-center bg-no-repeat rounded' alt="" />
               <p><img src={title3} alt="" /></p>
             </div>
 
             <div className='flex flex-col items-center justify-center'>
-              <img className='w-[230px] h-[340px]' src="" alt="" />
+              <img className='w-[230px] h-[340px] bg-depois bg-cover bg-center bg-no-repeat rounded' alt="" />
               <p><img src={title4} alt="" /></p>
             </div>
           </div>
@@ -64,25 +77,29 @@ function App() {
         <p className='text-2xl w-[300px] sm:w-[500px] sm:text-5xl'>assista ao vídeo para entender melhor</p>
       </section>
 
-      <section className='w-[100px] h-[100px] bg-red-900 rounded'>
-        <img src="" alt="" />
+      <section className='w-full relative'>
+        <img className='absolute left-0 top-0' src={pinkCloud} alt="" />
 
-        <div>
+        <div className='flex items-center justify-center'>
           <div>
             Ao adquirir este produto na Black Friday, você terá acesso a: PRESETS PREMY + BÔNUS + 60% OFF + SUPORTE
           </div>
 
           <div>
-            <img src="" alt="" />
+            <img src={phone1} alt="" />
           </div>
         </div>
       </section>
 
-      <section className='w-[100px] h-[100px] bg-red-900 rounded'>
-        <div></div>
+      <section className='flex items-center justify-center'>
+        <div className='text-center'>
+          <h2 className='text-4xl py-10'>OS BÔNUS SERÃO DE:</h2>
+
+          <p className='max-w-[600px] text-4xl leading-tight'>1 encontro comigo pelo zoom ensinando a usar os presets e o app Lightroom (se não puder ir na aula, não se preocupe! Ficará gravado! Com acesso pelo gdrive vitalício) Acesso à minha pasta particular no Pinterest, uma coletânea com mais de 300 fotos que será atualizada frequentemente e é vitalícia.</p>
+        </div>
 
         <div>
-          <img src="" alt="" />
+          <img src={emy03} alt="" />
         </div>
       </section>
 

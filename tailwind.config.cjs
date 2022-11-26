@@ -12,6 +12,10 @@ module.exports = {
         "Charm": "'Charm', cursive",
         "Bodoni2": "'Libre Bodoni', serif",
         "OldStandard": "'Old Standard TT', serif",
+      },
+      backgroundImage: {
+        "antes": "url('./src/assets/images/antes.jpeg')",
+        "depois": "url('./src/assets/images/depois.jpeg')"
       }
     },
   },
