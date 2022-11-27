@@ -21,7 +21,7 @@ import { RiPinterestLine, RiInstagramLine } from "react-icons/ri";
 function App() {
   return (
     <div className="flex flex-col items-center pt-20 px-2 gap-20 bg-black text-white font-Bodoni2">
-      <section className="flex items-center justify-center flex-col text-center gap-5 px-5 sm:flex-col sm:text-start md:flex-col lg:flex-row">,
+      <section className="flex items-center justify-center flex-col text-center gap-5 px-5 sm:flex-col sm:text-start md:flex-col lg:flex-row">
         <div className='flex flex-col gap-5 max-w-[390px] sm:max-w-[560px] md:max-w-[650px]'>
           <h2 className='flex flex-col items-center justify-center border-b-4 border-white'><img src={title1} alt="" /></h2>
 
@@ -97,6 +97,10 @@ function App() {
           </div>
         </div>
       </section>
+
+      <div className='hover:scale-105 transition cursor-pointer'>
+        <h2 className='p-2 m-2 text-2xl text-center text-black bg-[#FFCAB7] max-w-[300px] font-sans font-bold rounded-lg sm:max-w-[100%] sm:text-3xl sm:p-5'>A MAIOR PROMOÇÃO DO ANO!!!</h2>
+      </div>
 
       <section className='flex flex-col items-center justify-center text-center md:flex-row '>
         <div className='flex flex-col items-center justify-center sm:-mb-5 md:mb-0'>
