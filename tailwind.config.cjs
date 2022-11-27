@@ -9,8 +9,9 @@ module.exports = {
     extend: {
       fontFamily: {
         "Bodoni": "'Bodoni Moda', serif",
-        "Charm": "'Charm', cursive",
         "Bodoni2": "'Libre Bodoni', serif",
+        "Charm": "'Charm', cursive",
+        "Lato": "'Lato', sans-serif",
         "OldStandard": "'Old Standard TT', serif",
       },
       backgroundImage: {

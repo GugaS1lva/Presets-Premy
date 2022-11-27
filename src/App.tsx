@@ -17,12 +17,12 @@ import videozinho from './assets/images/videozinho.mp4'
 function App() {
   return (
     // w-screen h-screen
-    <div className="flex flex-col items-center py-20 px-2 gap-20 bg-black text-white font-Bodoni font-semibold">
+    <div className="flex flex-col items-center py-20 px-2 gap-20 bg-black text-white font-Lato">
       <section className="flex items-center justify-center flex-col text-center gap-5 px-5 sm:flex-col sm:text-start md:flex-col lg:flex-row">,
         <div className='flex flex-col gap-5 max-w-[390px] sm:max-w-[560px] md:max-w-[650px]'>
           <h2 className='flex flex-col items-center justify-center border-b-4 border-white'><img src={title1} alt="" /></h2>
 
-          <p className='text-xl font-Bodoni2 font-bold leading-tight sm:text-4xl sm:text-center md:text-start'>Hey! Sou a Emily Abade, tenho 17 anos e sou a criadora dos Presets Premy, que ajudam milhares de pessoas a terem suas fotos mais bonitas, afinal, quem não quer postar as melhores fotos nas redes sociais, não é mesmo?</p>
+          <p className='text-xl font-Lato font-bold leading-tight sm:text-4xl sm:text-center md:text-start'>Hey! Sou a Emily Abade, tenho 17 anos e sou a criadora dos Presets Premy, que ajudam milhares de pessoas a terem suas fotos mais bonitas, afinal, quem não quer postar as melhores fotos nas redes sociais, não é mesmo?</p>
 
           <div className='flex flex-col items-center justify-center'>
             <img src={title5} alt="" />
@@ -47,7 +47,7 @@ function App() {
           </h2>
           <div className='border-b-4 border-white w-full mt-2 sm:-mt-8'></div>
 
-          <p className='text-xl text-center font-Bodoni2 font-bold leading-tight max-w-[500px] sm:text-3xl'>Você quer melhorar a qualidade das suas fotos, não é girl?</p>
+          <p className='text-xl text-center font-Lato font-bold leading-tight max-w-[500px] sm:text-3xl'>Você quer melhorar a qualidade das suas fotos, não é girl?</p>
 
           <div className='flex flex-col gap-2 sm:flex-row'>
             <div className='flex flex-col items-center justify-center'>
@@ -112,9 +112,9 @@ function App() {
         </div>
 
         <div className='max-w-[600px]'>
-          <p className='text-3xl font-Bodoni2'>Hey girl, fala sério! Está muito barato! Seu Instagram irá bombar! E nunca mais terá problemas com fotos na sua vida!! Parece até pegadinha não é?</p>
+          <p className='text-3xl font-Lato'>Hey girl, fala sério! Está muito barato! Seu Instagram irá bombar! E nunca mais terá problemas com fotos na sua vida!! Parece até pegadinha não é?</p>
 
-          <p className='text-3xl font-Bodoni2'>Vai perder? Promoção de 30 reais a vista ou 6x de 5,54 no cartão! O valor de um lanche e olhe lá!</p>
+          <p className='text-3xl font-Lato'>Vai perder? Promoção de 30 reais a vista ou 6x de 5,54 no cartão! O valor de um lanche e olhe lá!</p>
 
           <span className='text-lg'>Lembrando que após chegar dezembro, irei aumentar o preço e nunca mais farei esta promoção!</span>
         </div>
