@@ -17,7 +17,7 @@ import videozinho from './assets/images/videozinho.mp4'
 function App() {
   return (
     // w-screen h-screen
-    <div className="flex flex-col items-center py-20 px-2 gap-20 bg-black text-white font-Bodoni">
+    <div className="flex flex-col items-center py-20 px-2 gap-20 bg-black text-white font-Bodoni font-semibold">
       <section className="flex items-center justify-center flex-col text-center gap-5 px-5 sm:flex-col sm:text-start md:flex-col lg:flex-row">,
         <div className='flex flex-col gap-5 max-w-[390px] sm:max-w-[560px] md:max-w-[650px]'>
           <h2 className='flex flex-col items-center justify-center border-b-4 border-white'><img src={title1} alt="" /></h2>
