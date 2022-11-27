@@ -12,7 +12,6 @@ import title7 from './assets/images/title7.png'
 import pinkCloud from './assets/images/pinkCloud.jpeg'
 import phone1 from './assets/images/phone1.jpeg'
 import girlOff from './assets/images/girlOff.jpeg'
-import gifzinho from './assets/images/gifzinho.gif'
 import videozinho from './assets/images/videozinho.mp4'
 
 function App() {
@@ -106,24 +105,19 @@ function App() {
         </div>
       </section>
 
-      <section className='bg-red-900 flex flex-col items-center justify-center rounded sm:flex-row'>
-        <div>
-          {/* <video className='w-[500px] h-[500px]' src={gifzinho}></video> */}
-          <img src={gifzinho} alt="" />
+      <section className='flex flex-col items-center justify-center text-center rounded -mt-10 sm:flex-row'>
+        <div className='flex flex-col items-center justify-center'>
+          <video className='max-w-[300px]' src={videozinho} autoPlay loop controls></video>
+          <span className='font-sans font-bold text-2xl mb-14 sm:mb-0'>Aperte para o incrível!</span>
         </div>
 
-        <div>
-          {/* <img src={gifzinho} alt="" /> */}
-          <video src={videozinho} autoPlay loop controls></video>
-        </div>
-
-        {/* <div className=''>
+        <div className='max-w-[600px]'>
           <p className='text-3xl font-Bodoni2'>Hey girl, fala sério! Está muito barato! Seu Instagram irá bombar! E nunca mais terá problemas com fotos na sua vida!! Parece até pegadinha não é?</p>
 
           <p className='text-3xl font-Bodoni2'>Vai perder? Promoção de 30 reais a vista ou 6x de 5,54 no cartão! O valor de um lanche e olhe lá!</p>
 
           <span className='text-lg'>Lembrando que após chegar dezembro, irei aumentar o preço e nunca mais farei esta promoção!</span>
-        </div> */}
+        </div>
       </section>
 
       <section>
