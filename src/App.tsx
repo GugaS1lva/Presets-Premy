@@ -11,6 +11,7 @@ import title6 from './assets/images/title6.png'
 import title7 from './assets/images/title7.png'
 import pinkCloud from './assets/images/pinkCloud.jpeg'
 import phone1 from './assets/images/phone1.jpeg'
+import gifzinho from './assets/images/gifzinho.mp4'
 
 function App() {
   return (
@@ -78,12 +79,12 @@ function App() {
       </section>
 
       <section className='w-full relative'>
-        <img className='absolute left-0 top-0' src={pinkCloud} alt="" />
+        <img className='absolute left-0 top-0 hidden md:block' src={pinkCloud} alt="" />
 
-        <div className='flex items-center justify-center'>
-          <div>
+        <div className='flex flex-col items-center justify-center relative z-10 md:flex-row'>
+          <p className='text-3xl text-center leading-snug md:text-2xl md:ml-5 max-w-[350px] sm:max-w-[500px] md:max-w-[300px] lg:max-w-[500px] lg:text-4xl'>
             Ao adquirir este produto na Black Friday, você terá acesso a: PRESETS PREMY + BÔNUS + 60% OFF + SUPORTE
-          </div>
+          </p>
 
           <div>
             <img src={phone1} alt="" />
@@ -91,20 +92,22 @@ function App() {
         </div>
       </section>
 
-      <section className='flex items-center justify-center'>
-        <div className='text-center'>
-          <h2 className='text-4xl py-10'>OS BÔNUS SERÃO DE:</h2>
+      <section className='flex flex-col items-center justify-center md:flex-row'>
+        <div className='text-center flex flex-col items-center justify-center'>
+          <h2 className='text-4xl max-w-[200px] relative sm:py-10 md:max-w-[100%]'>OS BÔNUS SERÃO DE:</h2>
 
-          <p className='max-w-[600px] text-4xl leading-tight'>1 encontro comigo pelo zoom ensinando a usar os presets e o app Lightroom (se não puder ir na aula, não se preocupe! Ficará gravado! Com acesso pelo gdrive vitalício) Acesso à minha pasta particular no Pinterest, uma coletânea com mais de 300 fotos que será atualizada frequentemente e é vitalícia.</p>
+          <p className='max-w-[400px] text-2xl leading-7 tracking-wider p-5 sm:p-0 md:max-w-[500px] sm:leading-normal md:relative md:ml-5 lg:text-3xl lg:max-w-[650px]'>1 encontro comigo pelo zoom ensinando a usar os presets e o app Lightroom (se não puder ir na aula, não se preocupe! Ficará gravado! Com acesso pelo gdrive vitalício) Acesso à minha pasta particular no Pinterest, uma coletânea com mais de 300 fotos que será atualizada frequentemente e é vitalícia.</p>
         </div>
 
-        <div>
+        <div className='-ml-20 md:-ml-40'>
           <img src={emy03} alt="" />
         </div>
       </section>
 
       <section className='w-[100px] h-[100px] bg-red-900 rounded'>
-        <div><img src="" alt="" /></div>
+        <div>
+          <video src={gifzinho} autoPlay loop controls width={500} height={500}></video>
+        </div>
 
         <div></div>
       </section>
