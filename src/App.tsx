@@ -17,12 +17,12 @@ import videozinho from './assets/images/videozinho.mp4'
 function App() {
   return (
     // w-screen h-screen
-    <div className="flex flex-col items-center py-20 px-2 gap-20 bg-black text-white font-Lato">
+    <div className="flex flex-col items-center py-20 px-2 gap-20 bg-black text-white font-Bodoni2">
       <section className="flex items-center justify-center flex-col text-center gap-5 px-5 sm:flex-col sm:text-start md:flex-col lg:flex-row">,
         <div className='flex flex-col gap-5 max-w-[390px] sm:max-w-[560px] md:max-w-[650px]'>
           <h2 className='flex flex-col items-center justify-center border-b-4 border-white'><img src={title1} alt="" /></h2>
 
-          <p className='text-xl font-Lato font-bold leading-tight sm:text-4xl sm:text-center md:text-start'>Hey! Sou a Emily Abade, tenho 17 anos e sou a criadora dos Presets Premy, que ajudam milhares de pessoas a terem suas fotos mais bonitas, afinal, quem não quer postar as melhores fotos nas redes sociais, não é mesmo?</p>
+          <p className='text-xl font-Bodoni2 font-bold leading-tight sm:text-4xl sm:text-center md:text-start'>Hey! Sou a Emily Abade, tenho 17 anos e sou a criadora dos Presets Premy, que ajudam milhares de pessoas a terem suas fotos mais bonitas, afinal, quem não quer postar as melhores fotos nas redes sociais, não é mesmo?</p>
 
           <div className='flex flex-col items-center justify-center'>
             <img src={title5} alt="" />
@@ -47,7 +47,7 @@ function App() {
           </h2>
           <div className='border-b-4 border-white w-full mt-2 sm:-mt-8'></div>
 
-          <p className='text-xl text-center font-Lato font-bold leading-tight max-w-[500px] sm:text-3xl'>Você quer melhorar a qualidade das suas fotos, não é girl?</p>
+          <p className='text-xl text-center font-Bodoni2 font-bold leading-tight max-w-[500px] sm:text-3xl'>Você quer melhorar a qualidade das suas fotos, não é girl?</p>
 
           <div className='flex flex-col gap-2 sm:flex-row'>
             <div className='flex flex-col items-center justify-center'>
@@ -83,8 +83,8 @@ function App() {
         <img className='absolute left-0 top-0 hidden md:block' src={pinkCloud} alt="" />
 
         <div className='flex flex-col items-center justify-center relative z-10 md:flex-row'>
-          <p className='text-3xl text-center leading-snug md:text-2xl md:ml-5 max-w-[350px] sm:max-w-[500px] md:max-w-[300px] lg:max-w-[500px] lg:text-4xl'>
-            Ao adquirir este produto na Black Friday, você terá acesso a: PRESETS PREMY + BÔNUS + 60% OFF + SUPORTE
+          <p className='text-3xl text-center leading-snug max-w-[350px] p-7 sm:p-0 md:text-2xl md:ml-5 sm:max-w-[500px] md:max-w-[300px] lg:max-w-[530px] lg:text-4xl'>
+            Ao adquirir este produto na Black Friday, você terá acesso a: 300 PRESETS PREMY + 2 BÔNUS + 80% OFF + SUPORTE
           </p>
 
           <div>
@@ -105,24 +105,24 @@ function App() {
         </div>
       </section>
 
-      <section className='flex flex-col items-center justify-center text-center rounded -mt-10 sm:flex-row'>
+      <section className='flex flex-col items-center justify-center text-center rounded -mt-10 md:flex-row'>
         <div className='flex flex-col items-center justify-center'>
           <video className='max-w-[300px]' src={videozinho} autoPlay loop controls></video>
-          <span className='font-sans font-bold text-2xl mb-14 sm:mb-0'>Aperte para o incrível!</span>
+          <span className='font-sans font-bold text-2xl mb-14 sm:mb-10 md:-mt-2'>Aperte para o incrível!</span>
         </div>
 
-        <div className='max-w-[600px]'>
-          <p className='text-3xl font-Lato'>Hey girl, fala sério! Está muito barato! Seu Instagram irá bombar! E nunca mais terá problemas com fotos na sua vida!! Parece até pegadinha não é?</p>
+        <div className='max-w-[410px] p-5 lg:max-w-[600px] lg:pl-10'>
+          <p className='text-3xl font-Bodoni2'>Hey girl, fala sério! Está muito barato! Seu Instagram irá bombar! E nunca mais terá problemas com fotos na sua vida!! Parece até pegadinha não é?</p>
 
-          <p className='text-3xl font-Lato'>Vai perder? Promoção de 30 reais a vista ou 6x de 5,54 no cartão! O valor de um lanche e olhe lá!</p>
+          <p className='text-3xl font-Bodoni2'>Vai perder? Promoção de 30 reais a vista ou 6x de 5,54 no cartão! O valor de um lanche e olhe lá!</p>
 
-          <span className='text-lg'>Lembrando que após chegar dezembro, irei aumentar o preço e nunca mais farei esta promoção!</span>
+          <p className='text-lg mt-5'>Lembrando que após chegar dezembro, irei aumentar o preço e nunca mais farei esta promoção!</p>
         </div>
       </section>
 
-      <section>
+      <section className='text-center'>
         <div>
-          <h2>PROMOÇÃO</h2>
+          <h2 className='font-Bodoni2 text-3xl'>PROMOÇÃO</h2>
 
           <strong>80% OFF</strong>
 
