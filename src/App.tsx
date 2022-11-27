@@ -1,6 +1,8 @@
 import emy01 from './assets/images/emy01.jpeg'
 import emy02 from './assets/images/emy02.jpeg'
 import emy03 from './assets/images/emy03.jpeg'
+import antes from './assets/images/antes.jpeg'
+import depois from './assets/images/depois.jpeg'
 import title1 from './assets/images/title1.png'
 import title2left from './assets/images/title2left.png'
 import title2right from './assets/images/title2right.png'
@@ -14,10 +16,11 @@ import phone1 from './assets/images/phone1.jpeg'
 import girlOff from './assets/images/girlOff.jpeg'
 import videozinho from './assets/images/videozinho.mp4'
 
+import { RiPinterestLine, RiInstagramLine } from "react-icons/ri";
+
 function App() {
   return (
-    // w-screen h-screen
-    <div className="flex flex-col items-center py-20 px-2 gap-20 bg-black text-white font-Bodoni2">
+    <div className="flex flex-col items-center pt-20 px-2 gap-20 bg-black text-white font-Bodoni2">
       <section className="flex items-center justify-center flex-col text-center gap-5 px-5 sm:flex-col sm:text-start md:flex-col lg:flex-row">,
         <div className='flex flex-col gap-5 max-w-[390px] sm:max-w-[560px] md:max-w-[650px]'>
           <h2 className='flex flex-col items-center justify-center border-b-4 border-white'><img src={title1} alt="" /></h2>
@@ -51,12 +54,14 @@ function App() {
 
           <div className='flex flex-col gap-2 sm:flex-row'>
             <div className='flex flex-col items-center justify-center'>
-              <img className='w-[230px] h-[340px] bg-antes bg-cover bg-center bg-no-repeat rounded' alt="" />
+              <img className='rounded' src={antes} alt="" />
+
               <p><img src={title3} alt="" /></p>
             </div>
 
             <div className='flex flex-col items-center justify-center'>
-              <img className='w-[230px] h-[340px] bg-depois bg-cover bg-center bg-no-repeat rounded' alt="" />
+              <img className='rounded' src={depois} alt="" />
+              
               <p><img src={title4} alt="" /></p>
             </div>
           </div>
@@ -120,19 +125,33 @@ function App() {
         </div>
       </section>
 
-      <section className='text-center'>
-        <div>
+      <section className='text-center flex flex-col items-center justify-center gap-10 md:gap-20 md:flex-row'>
+        <div className='flex flex-col items-center justify-center gap-2'>
           <h2 className='font-Bodoni2 text-3xl'>PROMOÇÃO</h2>
 
-          <strong>80% OFF</strong>
+          <strong className='text-7xl block w-[300px] sm:text-9xl'>80% OFF</strong>
 
-          <p>Faça como outras mulheres já fizeram e brilhe seu Instagram!</p>
+          <p className='text-3xl italic max-w-[490px] md:max-w-[500px]'>Faça como outras mulheres já fizeram e brilhe seu Instagram!</p>
         </div>
 
         <div>
           <img src={girlOff} alt="" />
         </div>
       </section>
+
+      <footer className='flex flex-col items-center justify-center border-t-4 border-white w-full relative'>
+        <div className='flex items-center justify-center gap-5 pt-10 left-0 text-5xl text-[#FFCAB7] md:absolute md:pt-0'>
+          <a href="https://br.pinterest.com/emilyabade/?invite_code=c398fef5763a462b84eea1ff08e0d788&sender=641270571849682981" target={'_blank'}>
+            <RiPinterestLine className='hover:scale-110 transition' />
+          </a>
+
+          <a href="https://www.instagram.com/emily_abadee/" target={'_blank'}>
+            <RiInstagramLine className='hover:scale-110 transition' />
+          </a>
+        </div>
+
+        <p className='text-2xl py-10 text-center'><span className='text-2xl font-Bodoni font-semibold text-[#FFCAB7]'>~</span> Emily Abade. <br /> Me siga nas minhas redes sociais!</p>
+      </footer>
     </div>
   )
 }
