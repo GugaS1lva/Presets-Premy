@@ -61,7 +61,7 @@ function App() {
 
             <div className='flex flex-col items-center justify-center'>
               <img className='rounded' src={depois} alt="" />
-              
+
               <p><img src={title4} alt="" /></p>
             </div>
           </div>
@@ -142,6 +142,10 @@ function App() {
           <img src={girlOff} alt="" />
         </div>
       </section>
+
+      <button className='font-sans font-bold text-4xl w-[235px] h-[60px] rounded-xl text-[#00C2CB] bg-white hover:bg-zinc-900 hover:border-2 hover:border-white transition sm:text-5xl sm:w-[400px] sm:h-[90px]'>
+        <a href="https://pay.kiwify.com.br/9hZC35j" target="_blank">EU QUERO!</a>
+      </button>
 
       <footer className='flex flex-col items-center justify-center border-t-4 border-white w-full relative'>
         <div className='flex items-center justify-center gap-5 pt-10 left-0 text-5xl text-[#FFCAB7] md:absolute md:pt-0'>
