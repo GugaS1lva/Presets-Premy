@@ -98,10 +98,6 @@ function App() {
         </div>
       </section>
 
-      <div className='hover:scale-105 transition cursor-pointer'>
-        <h2 className='p-2 m-2 text-2xl text-center text-black bg-[#FFCAB7] max-w-[300px] font-sans font-bold rounded-lg sm:max-w-[100%] sm:text-3xl sm:p-5'>A MAIOR PROMOÇÃO DO ANO!!!</h2>
-      </div>
-
       <section className='flex flex-col items-center justify-center text-center md:flex-row '>
         <div className='flex flex-col items-center justify-center sm:-mb-5 md:mb-0'>
           <h2 className='text-4xl max-w-[200px] relative sm:py-5 lg:max-w-[100%]'>OS BÔNUS SERÃO DE:</h2>
@@ -113,6 +109,10 @@ function App() {
           <img src={emy03} alt="" />
         </div>
       </section>
+
+      <div className='hover:scale-105 transition cursor-pointer'>
+        <h2 className='p-2 m-2 text-2xl text-center text-black bg-[#FFCAB7] max-w-[300px] font-sans font-bold rounded-lg sm:max-w-[100%] sm:text-3xl sm:p-5'>A MAIOR PROMOÇÃO DO ANO!!!</h2>
+      </div>
 
       <section className='flex flex-col items-center justify-center text-center rounded -mt-10 md:flex-row'>
         <div className='flex flex-col items-center justify-center'>
@@ -129,7 +129,7 @@ function App() {
         </div>
       </section>
 
-      <section className='text-center flex flex-col items-center justify-center gap-10 md:gap-20 md:flex-row'>
+      <section className='text-center flex flex-col-reverse items-center justify-center gap-10 md:gap-20 md:flex-row'>
         <div className='flex flex-col items-center justify-center gap-2'>
           <h2 className='font-Bodoni2 text-3xl'>PROMOÇÃO</h2>
 
