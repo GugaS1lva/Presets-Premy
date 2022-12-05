@@ -6,13 +6,12 @@ import antes from '../../assets/images/antes.jpeg'
 import depois from '../../assets/images/depois.jpeg'
 import title01 from '../../assets/images/title01.png'
 import logo from '../../assets/images/logo.png'
-import PinkCloud from '../../assets/images/PinkCloud.png'
 
 import { BsStars } from "react-icons/bs";
 
 const Main = () => {
   return (
-    <div className="bg-[#FFEDDE] w-full h-full flex flex-col items-center justify-center p-5 font-Bodoni2 font-semibold text-[#8B6042] text-center leading-normal text-2xl sm:text-3xl">
+    <div className="bg-[#FFEDDE] w-full h-full flex flex-col items-center justify-center p-5 pt-20 font-Bodoni2 font-semibold text-[#8B6042] text-center leading-normal text-2xl sm:text-3xl">
       <section className='flex flex-col items-center justify-center relative'>
         <p className='text-4xl'>Hey girl!</p>
         <p className='max-w-[340px] pt-5 pb-3 leading-normal'>CANSADA DE NÃO TER AS MELHORES</p>
@@ -20,16 +19,19 @@ const Main = () => {
 
         <img className='-mt-16' src={mockup01} alt="" />
 
-        <BsStars className='absolute -top-3 left-9 sm:left-20' />
-        <BsStars className='absolute top-72 -left-3 text-5xl sm:top-80 sm:left-4' />
+        <BsStars className='absolute rotate-6 -top-3 left-9 sm:left-20' />
+        <BsStars className='absolute -rotate-12 top-72 -left-3 text-5xl sm:top-80 sm:left-4' />
+        <BsStars className='absolute rotate-12 bottom-14 right-1 text-3xl sm:bottom-20 sm:right-10' />
       </section>
 
-      <section className='uppercase max-w-[400px] -mt-10'>
+      <section className='uppercase max-w-[400px] -mt-10 relative'>
         <p>E se eu lhe disser que você pode nunca mais ter esse problema?</p>
 
         <img className='scale-110 my-5' src={mockup02} alt="" />
 
         <p>E se eu lhe disser que seu feed do instagram pode ser assim?</p>
+
+        <BsStars className='absolute text-4xl rotate-2 -bottom-2 right-3' />
       </section>
 
       <section className='uppercase pt-24 max-w-[400px]'>
@@ -47,7 +49,7 @@ const Main = () => {
           </div>
         </div>
 
-        <button className='p-5 bg-[#422511] rounded-[20px] font-bold font-sans text-[#FFEDDE] hover:scale-110 transition text-4xl sm:text-5xl my-20'>EU QUERO!</button>
+        <a href="https://pay.kiwify.com.br/8HVmsmf" target={'_blank'}><button className='p-5 bg-[#422511] rounded-[20px] font-bold font-sans text-[#FFEDDE] hover:scale-110 transition text-4xl sm:text-5xl my-20'>EU QUERO!</button></a>
       </section>
 
       <section className='flex flex-col items-center justify-center'>
@@ -75,10 +77,14 @@ const Main = () => {
         <p className='uppercase max-w-[420px] -mt-12'>Vale para fotógrafos também! Edite sua foto com apenas um clique!</p>
       </section>
 
-      <section className='flex flex-col items-center justify-center'>
+      <section className='flex flex-col items-center justify-center relative'>
         <img src={mockup04} alt="" />
 
-        <button className='p-5 bg-[#422511] rounded-[20px] font-bold font-sans text-[#FFEDDE] hover:scale-110 transition text-4xl sm:text-5xl'>EU QUERO!</button>
+        <a href="https://pay.kiwify.com.br/8HVmsmf" target={'_blank'}><button className='p-5 bg-[#422511] rounded-[20px] font-bold font-sans text-[#FFEDDE] hover:scale-110 transition text-4xl sm:text-5xl'>EU QUERO!</button></a>
+
+        <BsStars className='absolute text-5xl rotate-[170deg] top-10 right-6 sm:top-12 sm:right-10' />
+        <BsStars className='absolute text-2xl rotate-6 top-52 right-2 sm:right-0' />
+        <BsStars className='absolute text-4xl -rotate-12 top-[19rem] left-5 sm:left-0 sm:top-80' />
       </section>
 
       <section className='uppercase flex flex-col items-center justify-center -mt-10'>
