@@ -17,6 +17,9 @@ module.exports = {
       backgroundImage: {
         "antes": "url('./src/assets/images/antes.jpeg')",
         "depois": "url('./src/assets/images/depois.jpeg')"
+      },
+      dropShadow: {
+        'strong': '0 0 2px rgb(0,0,0,0.6)'
       }
     },
   },
